@@ -1,0 +1,13 @@
+baseURL = "https://oddaudiolabs.com/"
+languageCode = "en-us"
+title = "Odd Audio Labs"
+theme = "minimal"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  author = "Alex Johnson"
+  description = "Building robust audio tech & mobile solutions."
+  accentColor = "#007ACC"
+  github = "alexjohnson"
+  email = "alex@oddaudiolabs.com"
