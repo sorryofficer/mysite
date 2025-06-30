@@ -1,0 +1,10 @@
+<section class="py-10">
+  <h2 class="text-2xl font-bold mb-4">Latest Posts</h2>
+  <ul>
+    {{ range first 5 (where .Site.RegularPages "Section" "blog") }}
+    <li class="mb-2">
+      <a href="{{ .RelPermalink }}" class="text-blue-700 hover:underline">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
